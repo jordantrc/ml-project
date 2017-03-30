@@ -1,2 +1,6 @@
 # ml-project .gitignore
-images/**
+*.jpg
+*.jpg*
+*.png
+*.gif
+*.bmp
