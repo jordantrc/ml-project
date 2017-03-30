@@ -1,6 +1,7 @@
 # ml-project .gitignore
 *.jpg
 *.jpg*
+*.jpeg
 *.png
 *.gif
 *.bmp
