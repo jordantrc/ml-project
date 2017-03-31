@@ -1,4 +1,6 @@
 # ml-project .gitignore
+.ipynb_checkpoints
+*.zip
 *.jpg
 *.jpg*
 *.jpeg
