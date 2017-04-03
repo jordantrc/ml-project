@@ -9,6 +9,8 @@ Requirements:
 * Pillow library
 * IPython
 * IPython Notebook
+* SkLearn
+* Numpy
 
 # Image Requirements
 Images must be stored in the images/combined folder. The naming convention is as follows:
