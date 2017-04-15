@@ -5,12 +5,14 @@
 The code directory contains a few scripts and IPython notebooks for data processing.
 
 Requirements:
-* Python 3
-* Pillow library
+* Python 3.5
+* Pillow
 * IPython
-* IPython Notebook
-* SkLearn
+* Jupyter Notebook
+* SkLearn (0.18+)
 * Numpy
+* Pandas
+* Tensorflow 1.0.1+
 
 # Image Requirements
 Images must be stored in the images/combined folder. The naming convention is as follows:
@@ -21,4 +23,6 @@ where classification is one of ship, sky, ocean, or land.
 
 The index must be unique to the dataset.
 
-Images will be resized to 200 pixels by 200 pixels using the LANCZOS filter.
+Images will be resized to 32 pixels by 32 pixels using the LANCZOS filter.
+
+Features are the RGB values of each pixel.
