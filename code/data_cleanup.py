@@ -24,7 +24,7 @@ def main():
         os.mkdir(destination_folder)    
 
     # cleanup datasets
-    cleanup_vais(vais_source_folder, destination_folder)
+    #cleanup_vais(vais_source_folder, destination_folder)
     cleanup_imagenet(imagenet_source_folder, destination_folder)
 
 
